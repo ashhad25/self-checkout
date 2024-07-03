@@ -1,0 +1,16 @@
+[
+	{
+		"id":1,
+		"name":"ABC Product",
+		"price":200,
+		"quantity":12,
+		"barcode":"2345"
+	},
+	{
+		"id":2,
+		"name":"XYZ Product",
+		"price":350,
+		"quantity":24,
+		"barcode":"4445"
+	}
+]
