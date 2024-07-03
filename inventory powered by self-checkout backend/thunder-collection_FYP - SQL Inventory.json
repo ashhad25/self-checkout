@@ -1,0 +1,129 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FYP - SQL Inventory",
+    "dateExported": "2024-01-20T06:50:34.688Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "f67c94b6-262f-4827-a730-56b3d17efb46",
+            "name": "products",
+            "containerId": "",
+            "created": "2023-11-24T04:29:22.709Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "a8e87ee0-b2ee-47f7-80e7-94acf0fa9f6e",
+            "name": "orders",
+            "containerId": "",
+            "created": "2024-01-20T06:33:54.053Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "4e069f8c-e98d-46e4-9536-6fdea14618c9",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "f67c94b6-262f-4827-a730-56b3d17efb46",
+            "name": "getAllProducts",
+            "url": "http://{remoteip}:3000/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-24T04:29:58.139Z",
+            "modified": "2024-01-20T06:49:30.108Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "remoteip",
+                    "value": "",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ea000405-2840-4ce4-8e54-b4efe3e53580",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "f67c94b6-262f-4827-a730-56b3d17efb46",
+            "name": "addProduct",
+            "url": "http://192.168.0.109:3000/products",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-24T04:32:44.196Z",
+            "modified": "2024-01-20T06:39:21.020Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Test1\",\n  \"price\":50,\n  \"quantity\":\"24\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bf0d99fa-7e6b-493c-a85c-c72467502cd0",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "f67c94b6-262f-4827-a730-56b3d17efb46",
+            "name": "updateProduct",
+            "url": "http://192.168.0.109:3000/products/4",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-24T04:37:42.682Z",
+            "modified": "2024-01-20T06:38:58.615Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Test4\",\n  \"price\":80,\n  \"quantity\":24\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7e0c2f4e-1bff-4210-b126-4f1d038b9ae6",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "f67c94b6-262f-4827-a730-56b3d17efb46",
+            "name": "deleteProduct",
+            "url": "http://192.168.0.109:3000/products/2",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-24T04:40:04.091Z",
+            "modified": "2024-01-20T06:41:09.680Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "109e8bfd-0506-4a75-8a57-bc7be09cb662",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "a8e87ee0-b2ee-47f7-80e7-94acf0fa9f6e",
+            "name": "placeOrder",
+            "url": "http://192.168.0.109:3000/orders",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-01-20T06:34:45.998Z",
+            "modified": "2024-01-20T06:45:32.866Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\": 1,\n  \"products\": [\n    {\"productId\": 1, \"quantity\": 2},\n    {\"productId\": 2, \"quantity\": 1}\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "996567ba-3839-49be-9050-99446768d753",
+            "colId": "48ce4fb6-5449-4fc2-871c-29ead3659a9f",
+            "containerId": "a8e87ee0-b2ee-47f7-80e7-94acf0fa9f6e",
+            "name": "getOrderById",
+            "url": "http://192.168.0.109:3000/orders/:id/billing",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-01-20T06:35:50.446Z",
+            "modified": "2024-01-20T06:42:41.496Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
