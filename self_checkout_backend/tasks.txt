@@ -1,0 +1,10 @@
+1.  authentication
+    .1  register user
+    .2  login user
+    .3  get user data
+2.  stores
+    .1  register stores
+    .2  get stores
+3.  user history
+    .1  add history
+    .2  get specific user history

@@ -1,0 +1,88 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FYP - Self Checkout System - Backend",
+    "dateExported": "2023-11-02T11:39:55.965Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "f4c65819-5c70-4a19-8780-d35dee2dcc79",
+            "name": "authentication",
+            "containerId": "",
+            "created": "2023-10-31T08:00:43.093Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "629848ea-3304-492a-b7ba-d8c6f3b367a3",
+            "name": "stores",
+            "containerId": "",
+            "created": "2023-10-31T08:01:08.987Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "ad847647-9763-463d-a33e-337059fda2f5",
+            "name": "history",
+            "containerId": "",
+            "created": "2023-10-31T08:01:18.426Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a4971206-7871-484c-8ee2-e0adc0c3f4bf",
+            "colId": "49f70dac-721d-4fb6-896f-57d413041dfb",
+            "containerId": "f4c65819-5c70-4a19-8780-d35dee2dcc79",
+            "name": "register",
+            "url": "http://localhost:8000/api/authRoute/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-10-31T08:11:18.352Z",
+            "modified": "2023-11-02T09:56:56.005Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"ckkashi\",\n  \"email\":\"ckkashi007@gmail.com\",\n  \"password\":\"42372Kash43\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c4d72d86-f5ae-4933-9aba-882b0b506628",
+            "colId": "49f70dac-721d-4fb6-896f-57d413041dfb",
+            "containerId": "f4c65819-5c70-4a19-8780-d35dee2dcc79",
+            "name": "login",
+            "url": "http://localhost:8000/api/authRoute/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-02T11:03:41.648Z",
+            "modified": "2023-11-02T11:19:26.552Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"ckkashi007@gmail.com\",\n  \"password\":\"42372Kash43\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "df25c545-5f71-42c0-8573-8d3cf8247ff0",
+            "colId": "49f70dac-721d-4fb6-896f-57d413041dfb",
+            "containerId": "f4c65819-5c70-4a19-8780-d35dee2dcc79",
+            "name": "getUser",
+            "url": "http://localhost:8000/api/authRoute/getUser",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-02T11:30:04.617Z",
+            "modified": "2023-11-02T11:31:10.052Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NTQzODFkM2ZjZTc2NGZjODQ0NjcwZWYiLCJpYXQiOjE2OTg5MjM5NjZ9.Ttwmtviv0geNZ9nJXuEq7WeTC8zjTm2kc2ZYLj-ph30"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
