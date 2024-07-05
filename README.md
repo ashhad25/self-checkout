@@ -148,9 +148,6 @@ git clone https://github.com/ashhad25/self-checkout.git
 
 <!-- Roadmap -->
 ## Roadmap 🛵
-Here's a roadmap for the Self-Checkout System project in a similar format:
-
-## Roadmap 🛵
 * [x] Design and implement user-friendly client interface using Flutter.
 * [x] Develop secure and efficient product scanning feature.
 * [x] Integrate shopping cart management functionality.
