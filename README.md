@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/last_commit-september-green" alt="last update" />
     <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="open source" />
     <img src="https://img.shields.io/badge/flutter-100.0%25-red" alt="language" />
-    <img src="https://img.shields.io/github/languages/code-size/deepakpadhi986/AI-Resume-Analyzer?color=informational" alt="code size" /></p>
+    <img src="https://img.shields.io/github/languages/code-size/ashhad25/self-checkout?color=informational" alt="code size" /></p>
   
   <!--links-->
   <h4>
@@ -182,7 +182,7 @@ If you want the working report of project
 
 **User Dashboard**
 
-![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/5.%20user_dashboard.jpeg?raw=true)
+![Screenshot](https://raw.githubusercontent.com/ashhad25/self-checkout/main/app%20ss/5.%20user_dashboard.jpeg?raw=true)
 
 **Select Store**
 
@@ -190,11 +190,11 @@ If you want the working report of project
 
 **Items List**
 
-![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/8.%20products_list.jpeg?raw=true)
+![Screenshot](https://raw.githubusercontent.com/ashhad25/self-checkout/main/app%20ss/8.%20products_list.jpeg?raw=true)
 
 **Scan Products**
 
-![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/9.%20Scan%20Items.jpeg?raw=true)
+![Screenshot](https://raw.githubusercontent.com/ashhad25/self-checkout/main/app%20ss/9.%20Scan%20Items.jpeg?raw=true)
 
 **Product Details**
 
@@ -202,11 +202,11 @@ If you want the working report of project
 
 **Recommendations**
 
-![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/11.%20Recommendations.jpeg?raw=true)
+![Screenshot](https://raw.githubusercontent.com/ashhad25/self-checkout/main/app%20ss/11.%20Recommendations.jpeg?raw=true)
 
 **Order Receipt**
 
-![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/12.%20Order%20Recipt%20.jpeg?raw=true)
+![Screenshot](https://raw.githubusercontent.com/ashhad25/self-checkout/main/app%20ss/12.%20Order%20Recipt%20.jpeg?raw=true)
 
 ## Admin Panel
 
