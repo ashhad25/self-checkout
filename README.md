@@ -178,7 +178,7 @@ If you want the working report of project
 
 ## Preview 👽
 
-### Mobile App
+## Mobile App
 
 **User Dashboard**
 
@@ -204,11 +204,11 @@ If you want the working report of project
 
 ![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/11.%20Recommendations.jpeg?raw=true)
 
-**Order Reciept**
+**Order Receipt**
 
 ![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/12.%20Order%20Recipt%20.jpeg?raw=true)
 
-### Admin Panel
+## Admin Panel
 
 **Store Registration**
 
@@ -218,7 +218,7 @@ If you want the working report of project
 
 ![Screenshot](https://github.com/ashhad25/self-checkout/blob/main/app%20ss/admin%20panel%20ss/stats.png?raw=true)
 
-### Dummy Inventory
+## Dummy Inventory
 
 **Product Management**
 
